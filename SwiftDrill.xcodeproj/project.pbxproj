@@ -13,6 +13,8 @@
 		D485B60E25F751E500D0FEDB /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D485B60D25F751E500D0FEDB /* Preview Assets.xcassets */; };
 		D485B61925F751E600D0FEDB /* SwiftDrillTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D485B61825F751E600D0FEDB /* SwiftDrillTests.swift */; };
 		D485B62425F751E600D0FEDB /* SwiftDrillUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D485B62325F751E600D0FEDB /* SwiftDrillUITests.swift */; };
+		D4EF383125F8679B009AF27C /* CircleImageView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D4EF383025F8679B009AF27C /* CircleImageView.swift */; };
+		D4EF383625F87218009AF27C /* MapView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D4EF383525F87218009AF27C /* MapView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -45,6 +47,8 @@
 		D485B61F25F751E600D0FEDB /* SwiftDrillUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SwiftDrillUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		D485B62325F751E600D0FEDB /* SwiftDrillUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftDrillUITests.swift; sourceTree = "<group>"; };
 		D485B62525F751E600D0FEDB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D4EF383025F8679B009AF27C /* CircleImageView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CircleImageView.swift; sourceTree = "<group>"; };
+		D4EF383525F87218009AF27C /* MapView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MapView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -100,6 +104,8 @@
 				D485B60A25F751E500D0FEDB /* Assets.xcassets */,
 				D485B60F25F751E500D0FEDB /* Info.plist */,
 				D485B60C25F751E500D0FEDB /* Preview Content */,
+				D4EF383025F8679B009AF27C /* CircleImageView.swift */,
+				D4EF383525F87218009AF27C /* MapView.swift */,
 			);
 			path = SwiftDrill;
 			sourceTree = "<group>";
@@ -260,6 +266,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				D485B60925F751DE00D0FEDB /* ContentView.swift in Sources */,
+				D4EF383625F87218009AF27C /* MapView.swift in Sources */,
+				D4EF383125F8679B009AF27C /* CircleImageView.swift in Sources */,
 				D485B60725F751DE00D0FEDB /* SwiftDrillApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
